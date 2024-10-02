@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    height: 90px;
+}
+
+.nav-links button {
+    margin-left: 25px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-links button:hover {
+    background-color: #ddd;
+}
