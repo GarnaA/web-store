@@ -1,20 +1,21 @@
-.navbar {
+.header {
     display: flex;
     align-items: center;
-    padding: 20px;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
 }
 
 .logo {
-    height: 90px;
+    height: auto;
+    width: 10vw;
 }
 
-.nav-links button {
+.buttons button {
+    font-size: 2vw;
+    padding: 10px 20px;
     margin-left: 25px;
-    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
