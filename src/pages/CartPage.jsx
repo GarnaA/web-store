@@ -3,19 +3,14 @@ import { addToCart, removeFromCart, clearCart } from '../actions/cartActions';
 
 const Cart = () => {
   const dispatch = useDispatch();
-
   const { items = [], loading = false, error = null } = useSelector((state) => state.cart || {});
-
   const Product = { id: 1, name: "Product" };
-
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
   };
-
   const handleRemoveFromCart = (productId) => {
     dispatch(removeFromCart(productId));
   };
-
   const handleClearCart = () => {
     dispatch(clearCart());
   };
