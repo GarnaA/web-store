@@ -1,0 +1,31 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+  
+.nav_container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.link {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+  
+.copyright {
+  margin-top: 20px;
+}
+  

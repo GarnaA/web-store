@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.logo {
+  height: auto;
+  width: 10vw;
+}
+
+.buttons button {
+  font-size: 2vw;
+  padding: 10px 20px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-links button:hover {
+  background-color: #ddd;
+}
