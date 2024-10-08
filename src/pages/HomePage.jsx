@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/home.scss';
+import '../components/ProductList/productList.scss';
 import image1 from '../assets/products_img/product1.jpeg';
 import image2 from '../assets/products_img/product2.jpeg';
 

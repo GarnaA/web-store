@@ -2,17 +2,14 @@ import './App.css';
 import Home from './pages/HomePage.jsx';
 import Products from './pages/ProductPage.jsx';
 import Cart from './pages/CartPage.jsx';
-import Header from './components/Header.jsx';
-import { Provider } from 'react-redux';
-import store from './store.jsx';
+import Header from './components/Header/index.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProductPage from './pages/ProductPage.jsx';
-import Footer from './components/Footer.jsx';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className='app-container'>
-      <Provider store={store}>
         <BrowserRouter>
           <Header />
           <Routes>
@@ -23,7 +20,6 @@ function App() {
           </Routes>
           <Footer />
         </BrowserRouter>
-      </Provider>
     </div>
   );
 }
